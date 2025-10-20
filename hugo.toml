@@ -1,0 +1,4 @@
+baseURL = 'https://plovski.dk/'
+languageCode = 'da-dk'
+title = 'plovskis'
+theme = 'ananke'

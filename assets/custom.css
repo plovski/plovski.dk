@@ -1,0 +1,31 @@
+/* Custom CSS for a more academic/professional look on plovski.dk */
+
+/* 1. Justering af Brødtekst (Body Text) */
+body {
+    /* Reducer skriftstørrelsen lidt for et mere formelt udseende */
+    font-size: 1.0rem; /* Ananke standard er ofte 1.125rem. Vi sætter den ned */
+    line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed (mere luft) */
+}
+
+/* 2. Justering af Overskrifter for Struktur */
+/* Gør overskrifter lidt mindre dominerende */
+h1 {
+    font-size: 2.2rem; /* Standard er ofte 2.5rem eller mere */
+    margin-top: 1.5em; /* Mere plads over H1 */
+    margin-bottom: 0.8em;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-top: 1.5em; /* Giver sektioner mere adskillelse */
+}
+
+/* 3. Løsn layoutet lidt op (Kan være nødvendigt for at forhindre at Ananke klemmer indholdet) */
+.cf {
+    /* Mange temaer bruger klasser som .cf eller .container. 
+       Dette er et gæt for Ananke, som ofte bruger flexbox eller grids. */
+    padding: 0 5%; 
+}
+
+/* Du kan tilføje flere regler her, f.eks. for at ændre skrifttype, hvis du kender dens navn */
+/* body { font-family: 'Georgia', serif; } */

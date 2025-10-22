@@ -1,18 +1,11 @@
-/*
- * Custom CSS for plovski.dk - Akademisk Typografi (PaperMod Kompatibel)
- * Denne fil skal indeholde de simple, rene regler.
- */
+/* ... (body og andre stilarter) ... */
 
-/* 1. Global Justering og Brødtekst */
-body {
-    font-size: 1.0rem; 
-    line-height: 1.6;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-}
-
-/* 2. POST-TITEL (H1) - SKAL VÆRE EN ENKEL SELECTOR I PAPERMOD */
-h1 { 
-    font-size: 1.6rem; /* Din ønskede, diskrete størrelse (uden !important) */
+/* 2. POST-TITEL (H1) - Den Primære Rubrik */
+/* Bruger den FULDE selector: h1.post-title.entry-hint-parent */
+h1.post-title.entry-hint-parent { 
+    font-size: 1rem; /* Din ønskede, diskrete størrelse */
+    
+    /* Yderligere akademiske stilarter, som vi tidligere har aftalt: */
     margin-top: 1.5em; 
     margin-bottom: 0.5em;
     font-weight: 700; 
@@ -22,18 +15,4 @@ h1 {
     padding-bottom: 0.3em;
 }
 
-/* 3. MELLEMRUBRIKKER (H2) */
-h2 {
-    font-size: 1.15rem; 
-    margin-top: 2.5em; 
-    margin-bottom: 0.6em;
-    font-weight: 600; 
-    color: #333; 
-}
-
-/* 4. Skjul Uønskede Overskrifter (H3, H4 osv.) */
-h3, h4, h5, h6 {
-    font-size: 1.0rem; 
-    margin: 0.8em 0;
-    font-weight: normal; 
-}
+/* ... (H2 og andre regler forbliver de samme) ... */

@@ -15,7 +15,17 @@ theme = 'PaperMod'
     Title = "Plovski's Academic Notebook"
     Content = "Welcome to my clean, static site built with Hugo and PaperMod."
 
+# ... (resten af din konfiguration)
+
+[params.assets]
+    # Fortæl PaperMod, at den skal kombinere din custom.css med temaets egen stil
+    customCss = true 
+    
+    # PaperMod's standard CSS vil blive kombineret med en fil, der hedder
+    # assets/css/extended.css. Vi skal inkludere din custom.css i denne fil.
+
 # Indstillinger for lister (f.eks. /posts)
+
 [params.list]
     paginate = 5
     showPostNavHeaders = false

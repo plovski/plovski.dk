@@ -1,4 +1,22 @@
 baseURL = 'https://plovski.dk/'
-languageCode = 'da-dk'
-title = 'plovskis'
-theme = 'ananke'
+languageCode = 'en-us' # Retter sprogkode til engelsk, som du ønskede
+title = 'Plovskis Academic Notebook'
+theme = 'PaperMod'
+
+# Parametre nødvendige for PaperMod
+[params]
+    env = "production" # Helt nødvendigt for at temaet fungerer korrekt
+    defaultTheme = "light" # Standard lyst tema
+    disableThemeToggle = false # Tillader skift mellem lyst/mørkt tema
+    ShowReadingTime = true # Viser estimeret læsetid
+    
+# Forside indstillinger
+[params.homeInfoParams]
+    Title = "Plovski's Academic Notebook"
+    Content = "Welcome to my clean, static site built with Hugo and PaperMod."
+
+# Indstillinger for lister (f.eks. /posts)
+[params.list]
+    paginate = 5
+    showPostNavHeaders = false
+

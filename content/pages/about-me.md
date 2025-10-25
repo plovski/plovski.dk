@@ -6,7 +6,7 @@ description: "A short introduction to the person behind plovski.dk and the ambit
 type: "page" # Bruges ofte for statiske sider
 ---
 
-# Hello and Welcome!
+## Hello and Welcome!
 
 My name is Plovski, and this website marks the beginning of my journey into the world of static site generators, specifically **Hugo**. I created this site to learn, experiment, and share my thoughts on technology, development, and personal projects.
 

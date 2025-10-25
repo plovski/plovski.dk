@@ -12,7 +12,7 @@ categories: ["Technology"]
 
 The modern web development landscape is undergoing a quiet revolution. Where monolithic, dynamic content management systems (CMS) once dominated, the focus is now shifting towards performance, security, and simplicity offered by static site generators (SSGs) like **Hugo**. This post explores the technical and philosophical reasons behind this trend, particularly within academic and technical publishing circles.
 
-## 1. Performance and S
+## Performance and S
 
 A static site is, fundamentally, a collection of pre-rendered HTML, CSS, and JavaScript files. Since there is no database or server-side processing layer, the attack surface is drastically reduced. The site is inherently faster because the server simply delivers files, eliminating the need for complex database queries on every page load.
 

@@ -1,6 +1,6 @@
 baseURL = 'https://plovski.dk/'
 languageCode = 'en-us' # Retter sprogkode til engelsk, som du ønskede
-title = 'Plovskis Academic Notebook'
+title = 'Plovskis'
 theme = 'PaperMod'
 
 # Parametre nødvendige for PaperMod
@@ -12,7 +12,7 @@ theme = 'PaperMod'
     
 # Forside indstillinger
 [params.homeInfoParams]
-    Title = "Plovski's Academic Notebook"
+    Title = "Plovskis' Rants and Raves on palestine, tech and The World"
     Content = "Welcome to my clean, static site built with Hugo and PaperMod."
 
 # ... (resten af din konfiguration)

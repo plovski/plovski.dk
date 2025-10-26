@@ -30,3 +30,18 @@ theme = 'PaperMod'
     paginate = 5
     showPostNavHeaders = false
 
+# MINIMALISTISK HOVEDMENU (Tilføj/erstat i bunden af hugo.toml)
+[[menu.main]]
+    identifier = "hjem"
+    name = "Hjem"            
+    url = "/posts/"          # PEGER PÅ DIN INDLÆGSOVERSIGT (Blog-listen)
+    weight = 10              # Viser den først
+
+[[menu.main]]
+    identifier = "om mig"
+    name = "Om Mig"
+    url = "/pages/about-me/" # PEGER PÅ DIN ABOUT-ME SIDE
+    weight = 20              # Viser den som nummer to
+
+# yaml som default i front matter
+metaDataFormat = "yaml" 

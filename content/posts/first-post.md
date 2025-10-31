@@ -1,52 +1,17 @@
 ---
-title: "The Static Renaissance: Why Hugo is the New Standard"
-date: 2025-10-22T12:55:00+02:00
-lastmod: 2025-10-22T12:55:00+02:00
-draft: false # VIGTIGT: Skal rettes til false for at udgive
-author: "Dr. Plovski"
-type: "post" # VIGTIGT: Definerer dette som et blogindlæg
-tags: ["tech", "hugo", "static-sites", "web-development"]
-categories: ["Technology"]
+title: "Første test"
+date: 2025-10-31T11:59:52+01:00
+draft: true
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus tortor, consectetur ac leo vitae, pellentesque imperdiet nisl. Etiam id ultrices dolor. Nunc et tincidunt enim, eu fringilla ipsum. Duis at mattis ipsum. Fusce ultrices ligula vitae justo congue molestie. Donec laoreet placerat neque, sed lacinia est. Quisque nulla odio, hendrerit id facilisis at, tempor sed mi. Vestibulum pretium turpis mauris, nec cursus sem accumsan ornare. Nunc vel elit lobortis, commodo nulla et, malesuada elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque, leo eget pulvinar lobortis, leo velit condimentum lorem, pretium ultricies odio metus quis arcu. Aenean a sollicitudin sem. Donec fringilla, ante at congue lacinia, leo ligula varius ligula, ac scelerisque libero orci in turpis.
 
-The modern web development landscape is undergoing a quiet revolution. Where monolithic, dynamic content management systems (CMS) once dominated, the focus is now shifting towards performance, security, and simplicity offered by static site generators (SSGs) like **Hugo**. This post explores the technical and philosophical reasons behind this trend, particularly within academic and technical publishing circles.
+## mellemrubrik
+Praesent et luctus nibh, at egestas felis. Aliquam non pharetra metus. Nam nec molestie mi, nec scelerisque nisl. Fusce eu diam at elit interdum euismod nec at augue. Pellentesque mattis commodo imperdiet. Quisque id volutpat justo, nec rutrum metus. Phasellus ut mi feugiat, egestas magna ornare, ultricies nunc. Donec consequat felis in ullamcorper vehicula. Phasellus quis tincidunt mi. Quisque pellentesque pellentesque tortor, non facilisis nibh rhoncus a. Duis dapibus posuere ligula, ut dictum nisi malesuada euismod. Sed condimentum commodo arcu vel suscipit.
 
-## Performance and S
+Nam non pharetra elit, ac fringilla lorem. Curabitur ante odio, finibus at nunc gravida, varius ullamcorper nulla. Sed mattis sollicitudin ipsum, vel faucibus felis luctus in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi tortor, rutrum et quam id, cursus tempus leo. Suspendisse potenti. Fusce fringilla nibh in placerat pretium. Nam congue scelerisque nunc at volutpat.
 
-A static site is, fundamentally, a collection of pre-rendered HTML, CSS, and JavaScript files. Since there is no database or server-side processing layer, the attack surface is drastically reduced. The site is inherently faster because the server simply delivers files, eliminating the need for complex database queries on every page load.
+## mellemrubrik
+Donec sollicitudin, mi sit amet luctus faucibus, ligula lectus blandit ligula, nec suscipit risus mauris sit amet enim. Cras sodales odio odio, id semper neque tincidunt sed. Aliquam molestie imperdiet orci, eu blandit odio sollicitudin vitae. Donec quis diam tincidunt, dignissim quam et, varius lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat ex nec velit suscipit, eget egestas sem euismod. Praesent mauris elit, fringilla nec viverra eget, accumsan et urna. Nunc rhoncus nec turpis vitae rhoncus. Aenean sollicitudin tortor ut mattis dignissim. Donec rhoncus arcu at congue pharetra. Etiam rhoncus ut massa non molestie. Suspendisse pulvinar fermentum posuere. Duis non enim sem. Nam faucibus condimentum dolor, non malesuada leo laoreet ac.
 
-> *"Performance is not just a feature; it is the foundation of the user experience."* - **A core principle for modern web publishing.**
-
-## 2. The Academic Appeal of Markdown
-
-For academics and technical writers, content structure and longevity are paramount. Hugo's reliance on **Markdown** (`.md`) files offers several advantages:
-
-* **Portability:** Content is plain text, easily backed up and migrated.
-* **Version Control:** Entire content history can be tracked perfectly using Git (as we have done for this site!).
-* **Focus:** Writers focus on structure and text, not complex WYSIWYG editors.
-
-## 3. Deployment Simplicity
-
-The combination of Hugo and platforms like **GitHub Actions** creates a "Write and Push" workflow. As soon as a change is committed to the main branch, the entire site is rebuilt and redeployed automatically, dramatically simplifying the maintenance pipeline. This is the exact system running on `plovski.dk`.
-
----
-
-## Conclusion
-
-The static site renaissance is driven by a focus on core web values: speed, security, and simplicity. As a tool built with Go, Hugo stands out as an incredibly fast and powerful choice for anyone—from hobbyists to large organizations—seeking a modern, efficient publishing platform.
-
----
-
-## Trin 3: Opdater Menuen (valgfrit)
-
-Hvis du vil have et menupunkt, der viser **alle dine blogindlæg**, skal du tilføje en *Listesektion* til din `hugo.toml`:
-
-Åbn **`hugo.toml`** og sørg for, at din `[[menu.main]]` sektion indeholder dette (hvis ikke, så tilføj det):
-
-```toml
-[[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/" # Viser listen over alle indlæg i /content/posts/
-    weight = 30
+Suspendisse egestas leo in erat venenatis condimentum. Aenean vestibulum, eros id aliquam tristique, nisl orci accumsan leo, vitae dapibus magna lacus quis tellus. Nullam non tincidunt urna. Vivamus vitae felis mi. Maecenas lacinia bibendum ligula, eu mattis ex mattis vel. Aliquam erat volutpat. Proin vestibulum dolor purus. Phasellus vitae turpis viverra, ultricies justo ut, porttitor lorem. Proin vitae finibus erat. 

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main>
+  <h1>Seneste Indlæg</h1>
+
+  {{/* Henter alle regulære sider (som dine indlæg er) og begrænser til de 3 nyeste. */}}
+  {{ $posts := (where .Site.RegularPages "Section" "posts") }}
+  
+  {{ range first 3 $posts }}
+    <article>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2. januar 2006" }}</time>
+        
+        {{ .Summary }}
+        
+        <p><a href="{{ .Permalink }}">(...) &rarr;</a></p>
+    </article>
+    <hr>
+  {{ end }}
+
+  {{/* Tilføj eventuelt link til alle indlæg */}}
+  <p><a href="/posts/">Se alle indlæg</a></p>
+
+</main>
+{{ end }}

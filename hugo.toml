@@ -3,6 +3,9 @@ languageCode = 'en-us' # Retter sprogkode til engelsk, som du ønskede
 title = 'Plovskis'
 theme = 'PaperMod'
 
+# Standardlængde for automatisk resumé
+summaryLength = 35 
+
 # Parametre nødvendige for PaperMod
 [params]
     env = "production" # Helt nødvendigt for at temaet fungerer korrekt

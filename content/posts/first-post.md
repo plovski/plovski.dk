@@ -1,7 +1,7 @@
 ---
 title: "Første test"
 date: 2025-10-31T11:59:52+01:00
-draft: true
+draft: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus tortor, consectetur ac leo vitae, pellentesque imperdiet nisl. Etiam id ultrices dolor. Nunc et tincidunt enim, eu fringilla ipsum. Duis at mattis ipsum. Fusce ultrices ligula vitae justo congue molestie. Donec laoreet placerat neque, sed lacinia est. Quisque nulla odio, hendrerit id facilisis at, tempor sed mi. Vestibulum pretium turpis mauris, nec cursus sem accumsan ornare. Nunc vel elit lobortis, commodo nulla et, malesuada elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque, leo eget pulvinar lobortis, leo velit condimentum lorem, pretium ultricies odio metus quis arcu. Aenean a sollicitudin sem. Donec fringilla, ante at congue lacinia, leo ligula varius ligula, ac scelerisque libero orci in turpis.

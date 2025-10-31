@@ -1,7 +1,7 @@
 ---
 title: "Second Post"
 date: 2025-10-31T12:00:06+01:00
-draft: true
+draft: false
 ---
 
  Donec ac dolor lectus. Praesent ornare facilisis sollicitudin. Pellentesque sodales tristique libero, eget dapibus metus pharetra at. Sed eu feugiat dolor. Aliquam ut lorem at neque molestie viverra non in purus. Phasellus in neque quam. Integer orci quam, varius et laoreet sed, lacinia vel augue. Etiam non lobortis justo, id condimentum ligula. Vestibulum arcu nunc, pellentesque eget venenatis eget, molestie quis lacus. Duis vel orci efficitur, euismod metus ultrices, bibendum sem. Duis rhoncus magna eget erat fringilla, at aliquet arcu maximus. Nullam quis leo vel sapien vestibulum pharetra et et dui. Vestibulum auctor urna ut mauris pulvinar luctus. Maecenas eget fringilla mi. Aliquam lacinia risus urna, non ornare dui ullamcorper sit amet.

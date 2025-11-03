@@ -1,0 +1,13 @@
+/* Fjern streger på forsiden */
+.home-list .home-card {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.home-list .home-card::after {
+  content: none !important; /* hvis temaet bruger pseudo-linje */
+}
+
+/* Valgfrit: lidt luft mellem kortene */
+.home-list .home-card + .home-card {
+  margin-top: 1.25rem;
+}
